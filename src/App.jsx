@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://contact-form-backend-wt52.onrender.com/api/health";
+const API_URL = import.meta.env.VITE_API_URL || "https://contact-form-backend-wt52.onrender.com/api";
 
 const initialForm = { name: "", email: "", subject: "", message: "" };
 
